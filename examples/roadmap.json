@@ -1,0 +1,45 @@
+{
+  "capacity": 13,
+  "items": [
+    {
+      "id": "TASK-1",
+      "type": "feature",
+      "title": "Team release dashboard",
+      "estimate": 5,
+      "impact": 9,
+      "confidence": 0.82,
+      "risk": "medium",
+      "userSegment": "managers"
+    },
+    {
+      "id": "TASK-2",
+      "type": "bugfix",
+      "title": "Fix duplicate billing webhook",
+      "estimate": 3,
+      "impact": 10,
+      "confidence": 0.95,
+      "risk": "high",
+      "severity": "critical"
+    },
+    {
+      "id": "TASK-3",
+      "type": "experiment",
+      "title": "AI generated release notes",
+      "estimate": 5,
+      "impact": 8,
+      "confidence": 0.55,
+      "risk": "medium",
+      "hypothesis": "Teams will publish release notes faster with a first draft."
+    },
+    {
+      "id": "TASK-4",
+      "type": "chore",
+      "title": "Upgrade API client generator",
+      "estimate": 2,
+      "impact": 5,
+      "confidence": 0.9,
+      "risk": "low",
+      "system": "developer-tooling"
+    }
+  ]
+}
